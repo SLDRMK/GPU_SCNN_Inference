@@ -3,6 +3,7 @@
 ## 1. 简介（Intro）
 
 本项目是中国科学院大学 2025 秋季课程《GPU 架构与编程》大作业一，实现并加速一个基于脉冲卷积神经网络（Spiking CNN, SCNN）的 Fashion-MNIST 分类系统。  
+项目 GitHub 仓库：[SLDRMK/GPU_SCNN_Inference](https://github.com/SLDRMK/GPU_SCNN_Inference)  
 项目包含：
 - **训练端（PyTorch + SpikingJelly）**：在 CPU / Apple MPS / CUDA 上完成 SCNN 训练，并导出权重为纯文本。
 - **推理端（CUDA C++）**：在 GPU 上使用手写 CUDA Kernel（含 PTX 优化版）进行高性能 SNN 推理与性能评测。
